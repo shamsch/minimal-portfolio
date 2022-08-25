@@ -1,16 +1,16 @@
 export const meta = {
-  title: 'LeBron James - Web Developer and Designer',
-  description: 'Hey, I\'m LeBron. I\'m a web developer and designer building things people love.'
-}
+  title: 'Shamsur Raza Chowdhury',
+  description: 'Full Stack Developer'
+};
 
 export const hero = {
-  title: "Hey there! I'm LeBron James.",
-  desc: "I'm a web developer and designer building things people love."
+  title: "Hiya, I'm Shamsur!",
+  desc: "I am a SW developer based in Tampere, Finland. Currently in the final year of my bachelor's degree at Tampere University. Originally from Bangladesh, I have been working on many university coursework and hobby projects using different programming languages and technologies. Check out my projects, tech stack, education and experience below. If you'd like to get in touch, feel free reach out me. Contact info in the footer below.",
 };
 
 export const projects = {
-  title: 'My Projects',
-  desc: "Here are some of my favorite projects that I've worked on.",
+  title: 'Projects',
+  desc: "Here are some of the projects that I've worked recently on. Check out my github for more projects.",
   projects: [
     {
       title: 'Lakers Official',
@@ -18,40 +18,34 @@ export const projects = {
       link: 'https://lakers.com',
       github: ''
     },
-    {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
-    },
-    {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
-    }
   ]
 };
 
 export const stack = {
-  title: 'My Stack',
+  title: 'Tech Stack',
   stack: [
-    'HTML',
-    'CSS',
-    'JavaScript',
+    'React JS',
+    'Next JS',
+    'React Native (Expo)',
+    'Node JS',
+    'Express JS',
+    'MongoDB',
+    'PostgreSQL',
+    'Prisma ORM',
+    'GraphQL',
     'Typescript',
-    'React',
-    'NextJS',
-    'TailwindCSS',
-    'Firebase',
-    'Git'
+    'Material UI',
+    'Tailwind CSS',
+    'Docker',
+    'GitHub Actions',
+    'C++',
+    'Python',    
   ]
 };
 
 export const contact = {
-  title: 'Contact Me',
-  email: 'lebron@gmail.com',
-  github: 'theking-lbj',
-  dribbble: 'theking-lbj',
-  linkedin: 'theking-lbj'
+  title: 'How to reach me',
+  email: 'shamsur314@gmail.com',
+  github: 'shamsch',
+  linkedin: 'shamsur314'
 };
