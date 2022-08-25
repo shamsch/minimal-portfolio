@@ -49,3 +49,23 @@ export const contact = {
   github: 'shamsch',
   linkedin: 'shamsur314'
 };
+
+export const education = {
+  title: 'Education',
+  schools: [
+    {
+      name: 'Tampere University of Technology',
+      degree: 'Bachelor of Science',
+      start: '2019',
+      end: '2020',
+      description: 'Computer Science'
+    },
+    {
+      name: 'Tampere University of Technology',
+      degree: 'Bachelor of Science',
+      start: '2017',
+      end: '2019',
+      description: 'Computer Science'
+    }
+  ]
+}
