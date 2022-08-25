@@ -5,7 +5,7 @@ export const meta = {
 
 export const hero = {
   title: "Hiya, I'm Shamsur!",
-  desc: "I am a SW developer based in Tampere, Finland. Currently in the final year of my bachelor's degree at Tampere University. Originally from Bangladesh, I have been working on many university coursework and hobby projects using different programming languages and technologies. Check out my projects, tech stack, education and experience below. If you'd like to get in touch, feel free reach out me. Contact info in the footer below.",
+  desc: "I am a SW developer based in Tampere, Finland. Currently in the final year of my bachelor's degree at Tampere University. Originally from Bangladesh, I have been working on many university coursework and hobby projects using different programming languages and technologies. Check out my projects, tech stack, education and experience below. If you'd like to get in touch, feel free reach out me. Contact info in the footer below."
 };
 
 export const projects = {
@@ -17,7 +17,7 @@ export const projects = {
       description: 'Home to the Los-Angeles Lakers',
       link: 'https://lakers.com',
       github: ''
-    },
+    }
   ]
 };
 
@@ -39,7 +39,7 @@ export const stack = {
     'Docker',
     'GitHub Actions',
     'C++',
-    'Python',    
+    'Python'
   ]
 };
 
@@ -54,18 +54,20 @@ export const education = {
   title: 'Education',
   schools: [
     {
-      name: 'Tampere University of Technology',
-      degree: 'Bachelor of Science',
-      start: '2019',
-      end: '2020',
-      description: 'Computer Science'
+      name: 'Tampere University',
+      degree: 'Bachelor of Science (Technology)',
+      start: '2020',
+      end: 'present',
+      description:
+        'Sustainable Urban Development. Minor Computer Science. Courses in object-oriented programming, database management, data structure and algorithm etc.'
     },
     {
-      name: 'Tampere University of Technology',
-      degree: 'Bachelor of Science',
-      start: '2017',
-      end: '2019',
-      description: 'Computer Science'
+      name: 'University of Helsinki',
+      degree: 'Open Studies',
+      start: '2021',
+      end: '2022',
+      description:
+        'Full Stack Development. Deep dive into modern web development. Covered topics like React, Express, GraphQL, End to End Testing, React Native, Containerization, CI/CD, Relational Databases etc. Total credit: 24 ECTS.'
     }
   ]
-}
+};
