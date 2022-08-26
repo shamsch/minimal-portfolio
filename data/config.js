@@ -16,24 +16,24 @@ export const projects = {
       title: 'Chat Nearby Web App',
       description: 'Realtime chat app built with React and Socket.io allowing users to chat randomly with each other within a certain radius.',
       link: 'https://aqueous-tor-35882.herokuapp.com/',
-      github: 'https://github.com/shamsch/chat-nearby-project'
+      github: 'shamsch/chat-nearby-project'
     }, 
     {
       title: 'Lost Pet Spotter App',
       description: 'A React Native app that allows people to report lost pets and find them. Uses map view and camera API.',
-      github: 'https://github.com/shamsch/lost-pet-spotter'
+      github: 'shamsch/lost-pet-spotter'
     }, 
     {
       title: 'Serverless JWT Authentication',
       description: 'Serverless JWT authentication using AWS Lambda and DynamoDB. Frontend made with Next.js.',
       link: 'https://lambda-jwtauth-nextjs.vercel.app/',
-      github: 'https://github.com/shamsch/lambda-jwtauth-nextjs'
+      github: 'shamsch/lambda-jwtauth-nextjs'
     }, 
     {
       title: 'Note web app',
       description: 'A web app that allows users to view, create, edit, and delete notes with Google login. Made with React and Firebase.',
       link: 'https://my-notes-6185a.web.app/',
-      github: 'https://github.com/shamsch/note-app'
+      github: 'shamsch/note-app'
     }
   ]
 };
