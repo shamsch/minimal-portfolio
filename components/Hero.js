@@ -27,14 +27,20 @@ export default function Hero() {
             />
           </div>
           <div className="mx-4">
-            <Image
-              src="/static/icons/download.svg"
-              width={30}
-              height={30}
-              alt="Toggle theme"
+            <a
+              href="./static/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="cursor-pointer"
-              onClick={() => console.log('Download resume')}
-            />
+            >
+              <Image
+                src="/static/icons/download.svg"
+                width={30}
+                height={30}
+                alt="Toggle theme"
+                className="cursor-pointer"
+              />
+            </a>
           </div>
         </div>
       </div>
