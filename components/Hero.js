@@ -15,14 +15,28 @@ export default function Hero() {
             alt="LeBron"
           />
         </div>
-        <Image
-          src="/static/icons/sun.svg"
-          width={30}
-          height={30}
-          alt="Toggle theme"
-          className="cursor-pointer toggleTheme"
-          onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-        />
+        <div className="flex flex-row">
+          <div className="mx-4">
+            <Image
+              src="/static/icons/sun.svg"
+              width={30}
+              height={30}
+              alt="Toggle theme"
+              className="cursor-pointer toggleTheme"
+              onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+            />
+          </div>
+          <div className="mx-4">
+            <Image
+              src="/static/icons/download.svg"
+              width={30}
+              height={30}
+              alt="Toggle theme"
+              className="cursor-pointer"
+              onClick={() => console.log('Download resume')}
+            />
+          </div>
+        </div>
       </div>
       <h1 className="mt-5 mb-4">{hero.title}</h1>
       <p className="text-lg">{hero.desc}</p>
