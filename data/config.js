@@ -4,36 +4,40 @@ export const meta = {
 };
 
 export const hero = {
-  title: "Hiya, I'm Shamsur!",
-  desc: "I am a SW developer based in Tampere, Finland. Currently in the final year of my bachelor's degree at Tampere University. Originally from Bangladesh, I have been working on many university coursework and hobby projects using different programming languages and technologies. Check out my projects, tech stack, education and experience below. If you'd like to get in touch, feel free reach out me. Contact info in the footer below."
+  title: "Moi, I'm Shamsur!",
+  desc: "I am a SW developer based in Tampere, Finland. Currently completing study at Tampere University and working as a software designer consultant. I love learning new technologies and building cool stuff."
 };
 
 export const projects = {
   title: 'Projects',
-  desc: "Here are some of the projects that I've worked recently on. Check out my github for more projects.",
+  desc: "Here are some of the projects that I've worked in the past on. Check out my github for more recent work.",
   projects: [
     {
-      title: 'Chat Nearby Web App',
-      description: 'Realtime chat app built with React and Socket.io allowing users to chat randomly with each other within a certain radius.',
-      link: 'https://aqueous-tor-35882.herokuapp.com/',
-      github: 'shamsch/chat-nearby-project'
-    }, 
-    {
-      title: 'Lost Pet Spotter App',
-      description: 'A React Native app that allows people to report lost pets and find them. Uses map view and camera API.',
-      github: 'shamsch/lost-pet-spotter'
-    }, 
-    {
       title: 'Serverless JWT Authentication',
-      description: 'Serverless JWT authentication using AWS Lambda and DynamoDB. Frontend made with Next.js.',
+      description:
+        'Serverless JWT authentication using AWS Lambda and DynamoDB. Frontend made with Next.js.',
       link: 'https://lambda-jwtauth-nextjs.vercel.app/',
       github: 'shamsch/lambda-jwtauth-nextjs'
-    }, 
+    },
     {
       title: 'Note web app',
-      description: 'A web app that allows users to view, create, edit, and delete notes with Google login. Made with React and Firebase.',
+      description:
+        'A web app that allows users to view, create, edit, and delete notes with Google login. Made with React and Firebase.',
       link: 'https://my-notes-6185a.web.app/',
       github: 'shamsch/note-app'
+    },
+    {
+      title: 'Chat Nearby Web App',
+      description:
+        'Realtime chat app built with React and Socket.io allowing users to chat randomly with each other within a certain radius.',
+      link: 'https://aqueous-tor-35882.herokuapp.com/',
+      github: 'shamsch/chat-nearby-project'
+    },
+    {
+      title: 'Lost Pet Spotter App',
+      description:
+        'A React Native app that allows people to report lost pets and find them. Uses map view and camera API. The APK may no longer work as the backend is not maintained anymore.',
+      github: 'shamsch/lost-pet-spotter'
     }
   ]
 };
@@ -55,6 +59,7 @@ export const stack = {
     'Tailwind CSS',
     'Docker',
     'GitHub Actions',
+    'Go',
     'C++',
     'Python'
   ]
@@ -76,7 +81,7 @@ export const education = {
       start: '2020',
       end: 'present',
       description:
-        'Sustainable Urban Development. Minor Computer Science. Courses in object-oriented programming, database management, data structure and algorithm etc.'
+        'Courses in object-oriented programming, database management, data structure and algorithm etc.'
     },
     {
       name: 'University of Helsinki',
