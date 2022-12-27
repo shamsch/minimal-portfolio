@@ -5,12 +5,12 @@ export const meta = {
 
 export const hero = {
   title: "Moi, I'm Shamsur!",
-  desc: "I am a SW developer based in Tampere, Finland. Currently completing study at Tampere University and working as a software designer consultant. I love learning new technologies and building cool stuff."
+  desc: "I am a SW developer based in Tampere, Finland. Currently completing studies at Tampere University and working as a software consultant with about a year of experience. In this fast changing and ever growing line of work, I keep up by constantly learning new and exciting things. Feel free to explore my work and read my latest learning in the blog section (coming soon!)."
 };
 
 export const projects = {
   title: 'Projects',
-  desc: "Here are some of the projects that I've worked in the past on. Check out my github for more recent work.",
+  desc: "Here are some of my hobby projects that I've worked in the past on. Check out my github for more recent work.",
   projects: [
     {
       title: 'Serverless JWT Authentication',
