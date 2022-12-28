@@ -5,6 +5,7 @@ import Projects from '@/components/Projects';
 import Education from '@/components/Education';
 import Stack from '@/components/Stack';
 import { meta } from '@/data/config';
+import Footer from '@/components/Footer';
 
 export default function Index() {
   return (
@@ -19,6 +20,7 @@ export default function Index() {
           <Projects />
           <Stack />
           <Contact />
+          <Footer/>
         </div>
       </div>
     </>

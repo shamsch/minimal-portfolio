@@ -93,3 +93,5 @@ export const education = {
     }
   ]
 };
+
+export const githubAPI = `https://api.github.com/repos/shamsch/minimal-portfolio`;
