@@ -10,7 +10,7 @@ export const hero = {
 
 export const projects = {
   title: 'Projects',
-  desc: "Here are some of my hobby projects that I've worked in the past on. Check out my github for more recent work.",
+  desc: "Here are some of my hobby projects that I've worked on in the past. Check out my github for more recent work.",
   projects: [
     {
       title: 'Serverless JWT Authentication',
@@ -29,7 +29,7 @@ export const projects = {
     {
       title: 'Chat Nearby Web App',
       description:
-        'Realtime chat app built with React and Socket.io allowing users to chat randomly with each other within a certain radius.',
+        'Realtime chat app built with React and Socket.io allowing users to chat randomly with each other within a certain radius. Deployment may no longer work as Heroku free tier has been discontinued.',
       link: 'https://aqueous-tor-35882.herokuapp.com/',
       github: 'shamsch/chat-nearby-project'
     },
