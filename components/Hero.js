@@ -12,10 +12,29 @@ export default function Hero() {
             src="/static/profile.png"
             layout="fill"
             objectFit="contain"
-            alt="LeBron"
+            alt="Profile"
           />
         </div>
         <div className="flex flex-row">
+          <div className="mx-4">
+            <a
+              href="https://shamsur.medium.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={
+                  theme === 'light'
+                    ? '/static/icons/medium.svg'
+                    : '/static/icons/medium-dark.svg'
+                }
+                width={30}
+                height={30}
+                alt="Medium"
+                className="cursor-pointer border-2 border-gray-300p-2"
+              />
+            </a>
+          </div>
           <div className="mx-4">
             <Image
               src="/static/icons/sun.svg"
