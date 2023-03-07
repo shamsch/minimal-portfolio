@@ -5,7 +5,7 @@ export const meta = {
 
 export const hero = {
   title: "Moi, I'm Shamsur!",
-  desc: "I am a SW developer based in Tampere, Finland. Currently completing studies at Tampere University and working as a software consultant with about a year of experience. In this fast changing and ever growing line of work, I keep up by constantly learning new and exciting things. Feel free to explore my work and read my latest learning in the blog section (coming soon!)."
+  desc: "I am a SW developer based in Tampere, Finland. Currently completing studies at Tampere University and working as a software consultant with about a year of experience. In this fast changing and ever growing line of work, I keep up by constantly learning new and exciting things. Feel free to explore my work and read my latest learning in my Medium blog linked above."
 };
 
 export const projects = {
